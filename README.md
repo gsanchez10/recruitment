@@ -4,7 +4,7 @@ Recruitment Tests
 La prueba consiste en realizar una aplicacion web para buscar canciones. se le proporcionara el servicio de donde obtendra la informacion de las canciones, tambien se le dara el diseño que debera crear.
 
 #### Requisitos del App. `(*)` `Opcionales`
-1. Crear layout en base al [PSD] proporcionado. 
+1. Crear layout en base al psd y los fonts que se encuentran en la carpeta [assets].
 2. Responsive ( desktop, table, mobile 480). `(*)` 
 3. Utilizacion de la menor cantidad posible de imagenes. `(*)` 
 4. Botones con internacionalizacion. `(*)` 
@@ -60,6 +60,6 @@ Favor cuando haya terminado la prueba notificar al correo [thi-tech-test@thehang
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
   
-  [PSD]: https://github.com/thehangarcr/frontend/tree/master/assets/psd
+  [assets]: https://github.com/thehangarcr/frontend/tree/master/assets
   
   [thi-tech-test@thehangar.cr]: thi-tech-test@thehangar.cr
