@@ -57,4 +57,3 @@ No hay restricciones de plugins o herramientas web que pueda utilizar para compl
 Adobe photoshop es el unico software que tendria que tener instalado en su propia maquina para realizar la pureba.
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
-    
