@@ -60,7 +60,7 @@ Once you are done, please let us know by sending an email to [thi-tech-test@theh
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
   
-  [assets]: https://github.com/thehangarcr/frontend/tree/master/assets
+  [assets]: https://github.com/thehangarcr/recruitment/tree/master/assets
   
   [thi-tech-test@thehangar.cr]: mailto:thi-tech-test@thehangar.cr
 
