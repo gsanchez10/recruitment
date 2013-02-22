@@ -56,7 +56,7 @@ The test consists in building an application that searches for songs. You will b
   - upload it to your own domain(if you have one).
   - send us the test via email to: thi-tech-test@thehangar.cr. 
 
-
+-----
 Recruitment Tests ( Back End ) 
 ==================
 
