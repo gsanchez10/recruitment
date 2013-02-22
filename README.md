@@ -58,11 +58,6 @@ There are no restrictions on the use of languajes or frameworks that you can use
 There are no restrictions on the use of plugins or tools that you can use to develop the test.
 Adobe Photoshop is the only software you will need to have installed on your machine in order to complete the test.
 
-##### Once you've finished the Front End test, please do one the following:
-  - upload it to any Cloud service (github, bitbucket, heroku, openshift, amazon)
-  - upload it to your own domain(if you have one).
-  - send us the test via email to: thi-tech-test@thehangar.cr. 
-
 ##### Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
