@@ -12,7 +12,7 @@ La prueba consiste en realizar una aplicacion web para buscar canciones. se le p
 
 #### Funcionalidad del App. `(*)` `Opcionales`
 
-* Se le proporcionara una url de donde podra obtener las canciones. Debera utilizar javascript o cualquier framework de javascript existente.
+* Se le proporcionara una url de donde podra obtener las canciones. Debera utilizar javascript o cualquier framework de javascript existente. `(*)` 
 
     URL: [http://thi-clientside-test.herokuapp.com/]
 
@@ -39,14 +39,14 @@ La prueba consiste en realizar una aplicacion web para buscar canciones. se le p
           }
         ]    
 
-* Cuando el usuario de click en la lupa o presione enter estando en la caja de texto, debera hacer un request al url proporcionaro lo cual le devolvera un json y usted debera cargar dinamicante el grid con esta informacion. 
+* Cuando el usuario de click en la lupa o presione enter estando en la caja de texto, debera hacer un request al url proporcionaro lo cual le devolvera un json y usted debera cargar dinamicante el grid con esta informacion. `(*)` 
 
-* Los botones de [today] y [friday] dentro de cada item del grid deberan funcionar como radiobutons (cuando uno de los botones es activado el otro es desactivado).
+* Los botones de [today] y [friday] dentro de cada item del grid deberan funcionar como radiobutons (cuando uno de los botones es activado el otro es desactivado). `(*)` 
 
-* El boton morado de play abrira un nuevo tab donde se puede escuchar la cancion. 
+* El boton morado de play abrira un nuevo tab donde se puede escuchar la cancion. `(*)` 
 
 
-Una ves que haya terminado la prueba puede: 
+Una vez que haya terminado la prueba puede: 
   - subirla a alguna nube (github, bitbucket, heroku, openshift, amazon)
   - subirla a su propio dominio si posee uno.
   - enviarnos la prueba en un zip. 
