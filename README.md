@@ -1,4 +1,4 @@
-Recruitment Tests
+Recruitment Tests ( Front End || Mobile )
 ==================
 
 The test consists in building an application that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
@@ -45,13 +45,26 @@ The test consists in building an application that searches for songs. You will b
 
 * The purple button will open a new tab from which the song will play. `(*)` 
 
-
-Once you've finished the test, please do one the following:
+##### Once you've finished the Front End test, please do one the following:
   - upload it to any Cloud service (github, bitbucket, heroku, openshift, amazon)
   - upload it to your own domain(if you have one).
   - send us the test via email to: thi-tech-test@thehangar.cr. 
 
 
+##### Once you've finished the mobile test, please do one the following:
+  - upload it to any Cloud service (github, bitbucket, heroku, openshift, amazon)
+  - upload it to your own domain(if you have one).
+  - send us the test via email to: thi-tech-test@thehangar.cr. 
+
+
+Recruitment Tests ( Back End ) 
+==================
+
+The test consists in building the Back End part of the front end application that searches songs. You will have provided the REST app with the sql || no-sql database. 
+
+There are no restrictions on the use of languajes or frameworks that you can use to develop the test.
+
+-----
 #### Notes:
 There are no restrictions on the use of plugins or tools that you can use to develop the test.
 Adobe Photoshop is the only software you will need to have installed on your machine in order to complete the test.
