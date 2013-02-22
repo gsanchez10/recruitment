@@ -4,10 +4,10 @@ Recruitment Tests
 La prueba consiste en realizar una aplicacion web para buscar canciones. se le proporcionara el servicio de donde obtendra la informacion de las canciones, tambien se le dara el diseño que debera crear.
 
 #### Requisitos del App. `(*)` `Opcionales`
-1. Crear layout en base al psd proporcionado. 
+1. Crear layout en base al [PSD] proporcionado. 
 2. Responsive ( desktop, table, mobile 480). `(*)` 
-3. Minimo posible de images. `(*)` 
-4. Botones Multilenguaje. `(*)` 
+3. Utilizacion de la menor cantidad posible de imagenes. `(*)` 
+4. Botones con internacionalizacion. `(*)` 
 5. Animacion de nubes. `(*)` 
 
 #### Funcionalidad del App. `(*)` `Opcionales`
@@ -39,7 +39,7 @@ La prueba consiste en realizar una aplicacion web para buscar canciones. se le p
           }
         ]    
 
-* Cuando el usuario de click en la lupa o presione enter estando en la caja de texto, debera hacer un request al url proporcionaro lo cual le devolvera un json y usted debera popular dinamicante el grid con esta informacion. 
+* Cuando el usuario de click en la lupa o presione enter estando en la caja de texto, debera hacer un request al url proporcionaro lo cual le devolvera un json y usted debera cargar dinamicante el grid con esta informacion. 
 
 * Los botones de [today] y [friday] dentro de cada item del grid deberan funcionar como radiobutons (cuando uno de los botones es activado el otro es desactivado).
 
@@ -54,6 +54,12 @@ Una ves que haya terminado la prueba puede:
 
 #### Notas:
 No hay restricciones de plugins o herramientas web que pueda utilizar para completar la prueba.
-Adobe photoshop es el unico software que tendria que tener instalado en su propia maquina para realizar la pureba.
+Adobe photoshop es el unico software que tendria que tener instalado en su propia maquina para realizar la prueba.
+
+Favor cuando haya terminado la prueba notificar al correo [thi-tech-test@thehangar.cr], con el link o el zip adjunto
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
+  
+  [PSD]: https://github.com/thehangarcr/frontend/tree/master/assets/psd
+  
+  [thi-tech-test@thehangar.cr]: thi-tech-test@thehangar.cr
