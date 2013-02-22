@@ -46,6 +46,55 @@ The test consists in building an application that searches for songs. You will b
 * The purple button will open a new tab from which the song will play. `(*)` 
 
 
+Recruitment Tests ( Mobile ) 
+==================
+
+The test consists in building a native app that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
+
+There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Windows).
+
+#### App Requirements `(*)` `Optionals`
+1. Create a layout based on the PSD and the fonts found under the [assets] folder.
+2. Local storage. Save the songs in the device. `(*)` 
+3. Rotation. `(*)` 
+4. Internationalization. `(*)` 
+
+#### App. Funtionality `(*)` `Optionals`
+
+* The URL from which you can obtain the songs information is: 
+
+    URL: [http://thi-clientside-test.herokuapp.com/]
+
+    Example:
+
+        [
+          {
+              "Url": "http://tinysong.com/vb2H",
+              "SongID": 25479197,
+              "SongName": "Johnny B. Goode",
+              "ArtistID": 45,
+              "ArtistName": "Chuck Berry",
+              "AlbumID": 235469,
+              "AlbumName": "Roll Over Beethoven"
+          },
+          {
+              "Url": "http://tinysong.com/7Wm7",
+              "SongID": 8815585,
+              "SongName": "Moonlight Sonata",
+              "ArtistID": 1833,
+              "ArtistName": "Beethoven",
+              "AlbumID": 5619520,
+              "AlbumName": "Beethoven Piano Sonatas"
+          }
+        ]    
+
+* When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
+
+* The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). 
+
+* The purple button will play the song. `(*)` 
+
+
 Recruitment Tests ( Back End ) 
 ==================
 
