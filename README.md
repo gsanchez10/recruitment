@@ -51,10 +51,7 @@ The test consists in building an application that searches for songs. You will b
   - send us the test via email to: thi-tech-test@thehangar.cr. 
 
 
-##### Once you've finished the mobile test, please do one the following:
-  - upload it to any Cloud service (github, bitbucket, heroku, openshift, amazon)
-  - upload it to your own domain(if you have one).
-  - send us the test via email to: thi-tech-test@thehangar.cr. 
+##### Once you've finished the mobile test, please send us the test via email to: thi-tech-test@thehangar.cr. 
 
 -----
 Recruitment Tests ( Back End ) 
