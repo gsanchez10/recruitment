@@ -63,11 +63,7 @@ Adobe Photoshop is the only software you will need to have installed on your mac
   - upload it to your own domain(if you have one).
   - send us the test via email to: thi-tech-test@thehangar.cr. 
 
-
-##### Once you've finished the mobile or back end test, please send us your awesome code zipped via email to: thi-tech-test@thehangar.cr. 
-
-
-Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
+##### Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
   
