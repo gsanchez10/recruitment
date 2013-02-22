@@ -49,7 +49,7 @@ The test consists in building an application that searches for songs. You will b
 Recruitment Tests ( Back End ) 
 ==================
 
-The test consists in building the Back End part of the front end application that searches songs. You will have provided the REST app with the sql || no-sql database. 
+The test consists in building the Back End part of the front end application that searches songs. You will have to provide the REST app with the sql || no-sql database. 
 
 There are no restrictions on the use of languajes or frameworks that you can use to develop the test.
 
