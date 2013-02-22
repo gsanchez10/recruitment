@@ -45,7 +45,7 @@ The test consists in building an application that searches for songs. You will b
 
 * The purple button will open a new tab from which the song will play. `(*)` 
 
------
+
 Recruitment Tests ( Back End ) 
 ==================
 
