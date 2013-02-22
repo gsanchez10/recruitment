@@ -62,5 +62,5 @@ Once you are done, please let us know by sending an email to [thi-tech-test@theh
   
   [assets]: https://github.com/thehangarcr/frontend/tree/master/assets
   
-  [thi-tech-test@thehangar.cr]: thi-tech-test@thehangar.cr
+  [thi-tech-test@thehangar.cr]: mailto:thi-tech-test@thehangar.cr
 
