@@ -88,7 +88,7 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
           }
         ]    
 
-* When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
+* When the user clicks on the magnifying glass icon, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
 
 * The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). 
 
