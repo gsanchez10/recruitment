@@ -1,18 +1,18 @@
-Recruitment Tests
-=========
+Recruitment Tests ( Front End || Mobile )
+==================
 
-La prueba consiste en realizar una aplicacion web para buscar canciones. se le proporcionara el servicio de donde obtendra la informacion de las canciones, tambien se le dara el diseño que debera crear.
+The test consists in building an application that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
 
-#### Requisitos del App. `(*)` `Opcionales`
-1. Crear layout en base al psd proporcionado. 
-2. Responsive ( desktop, table, mobile 480). `(*)` 
-3. Minimo posible de images. `(*)` 
-4. Botones Multilenguaje. `(*)` 
-5. Animacion de nubes. `(*)` 
+#### App. Requirements `(*)` `Optionals`
+1. Create a layout based on the PSD and the fonts found under the [assets] folder.
+2. It must be Responsive ( desktop, table, mobile 480). `(*)` 
+3. Use the least amount of images possible. `(*)` 
+4. Internationalization. `(*)` 
+5. Clouds animation. `(*)` 
 
-#### Funcionalidad del App. `(*)` `Opcionales`
+#### App. Funtionality `(*)` `Optionals`
 
-* Se le proporcionara una url de donde podra obtener las canciones. Debera utilizar javascript o cualquier framework de javascript existente.
+* You will be provided with a URL from which you can obtain the songs information. You will have to use native Javascript or any other existing Javascript framework. `(*)` 
 
     URL: [http://thi-clientside-test.herokuapp.com/]
 
@@ -39,21 +39,79 @@ La prueba consiste en realizar una aplicacion web para buscar canciones. se le p
           }
         ]    
 
-* Cuando el usuario de click en la lupa o presione enter estando en la caja de texto, debera hacer un request al url proporcionaro lo cual le devolvera un json y usted debera popular dinamicante el grid con esta informacion. 
+* When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data. `(*)` 
 
-* Los botones de [today] y [friday] dentro de cada item del grid deberan funcionar como radiobutons (cuando uno de los botones es activado el otro es desactivado).
+* The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). `(*)` 
 
-* El boton morado de play abrira un nuevo tab donde se puede escuchar la cancion. 
-
-
-Una ves que haya terminado la prueba puede: 
-  - subirla a alguna nube (github, bitbucket, heroku, openshift, amazon)
-  - subirla a su propio dominio si posee uno.
-  - enviarnos la prueba en un zip. 
+* The purple button will open a new tab from which the song will play. `(*)` 
 
 
-#### Notas:
-No hay restricciones de plugins o herramientas web que pueda utilizar para completar la prueba.
-Adobe photoshop es el unico software que tendria que tener instalado en su propia maquina para realizar la pureba.
+Recruitment Tests ( Mobile Native App ) 
+==================
+
+The test consists in building a native app that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
+
+There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Windows).
+
+#### App Requirements `(*)` `Optionals`
+1. Create a layout based on the PSD and the fonts found under the [assets] folder.
+2. Local storage. Save the songs in the device. `(*)` 
+3. Rotation. `(*)` 
+4. Internationalization. `(*)` 
+
+#### App. Funtionality
+
+* The URL from which you can obtain the songs information is: 
+
+    URL: [http://thi-clientside-test.herokuapp.com/]
+
+    Example:
+
+        [
+          {
+              "Url": "http://tinysong.com/vb2H",
+              "SongID": 25479197,
+              "SongName": "Johnny B. Goode",
+              "ArtistID": 45,
+              "ArtistName": "Chuck Berry",
+              "AlbumID": 235469,
+              "AlbumName": "Roll Over Beethoven"
+          },
+          {
+              "Url": "http://tinysong.com/7Wm7",
+              "SongID": 8815585,
+              "SongName": "Moonlight Sonata",
+              "ArtistID": 1833,
+              "ArtistName": "Beethoven",
+              "AlbumID": 5619520,
+              "AlbumName": "Beethoven Piano Sonatas"
+          }
+        ]    
+
+* When the user clicks on the magnifying glass icon, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
+
+* The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). 
+
+* The purple button will open a new web view from which the song will play.
+
+
+Recruitment Tests ( Back End ) 
+==================
+
+The test consists in building the Back End part of the front end application that searches songs. You will have to provide the REST app with the sql || no-sql database. 
+
+There are no restrictions on the use of languajes or frameworks that you can use to develop the Back End part.
+
+-----
+#### Notes:
+There are no restrictions on the use of plugins or tools that you can use to develop the test.
+Adobe Photoshop is the only software you will need to have installed on your machine in order to complete the test.
+
+##### Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
 
   [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
+  
+  [assets]: https://github.com/thehangarcr/recruitment/tree/master/assets
+  
+  [thi-tech-test@thehangar.cr]: mailto:thi-tech-test@thehangar.cr
+
