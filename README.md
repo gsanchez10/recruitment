@@ -46,7 +46,7 @@ The test consists in building an application that searches for songs. You will b
 * The purple button will open a new tab from which the song will play. `(*)` 
 
 
-Recruitment Tests ( Mobile ) 
+Recruitment Tests ( Mobile Native App ) 
 ==================
 
 The test consists in building a native app that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
@@ -59,7 +59,7 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 3. Rotation. `(*)` 
 4. Internationalization. `(*)` 
 
-#### App. Funtionality `(*)` `Optionals`
+#### App. Funtionality
 
 * The URL from which you can obtain the songs information is: 
 
@@ -92,7 +92,7 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 
 * The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). 
 
-* The purple button will play the song. `(*)` 
+* The purple button will open a new web view from which the song will play.
 
 
 Recruitment Tests ( Back End ) 
