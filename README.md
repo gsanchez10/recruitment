@@ -95,13 +95,6 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 * The purple button will open a new web view from which the song will play.
 
 
-Recruitment Tests ( Back End ) 
-==================
-
-The test consists in building the Back End part of the front end application that searches songs. You will have to provide the REST app with the sql || no-sql database. 
-
-There are no restrictions on the use of languajes or frameworks that you can use to develop the Back End part.
-
 -----
 #### Notes:
 There are no restrictions on the use of plugins or tools that you can use to develop the test.
