@@ -63,7 +63,7 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 
 * The URL from which you can obtain the songs information is: 
 
-    URL: [http://thi-clientside-test.herokuapp.com/]
+    URL: [http://thi-clientside-test.herokuapp.com/?search=beathes]
 
     Example:
 
@@ -102,7 +102,7 @@ Adobe Photoshop is the only software you will need to have installed on your mac
 
 ##### Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
 
-  [http://thi-clientside-test.herokuapp.com/]: http://thi-clientside-test.herokuapp.com/
+  [http://thi-clientside-test.herokuapp.com/?search=beathes]: http://thi-clientside-test.herokuapp.com/?search=beathes
   
   [assets]: https://github.com/thehangarcr/recruitment/tree/master/assets
   
