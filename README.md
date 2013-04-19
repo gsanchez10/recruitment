@@ -14,7 +14,7 @@ The test consists in building an application that searches for songs. You will b
 
 * You will be provided with a URL from which you can obtain the songs information. You will have to use native Javascript or any other existing Javascript framework. `(*)` 
 
-    URL: [http://thi-clientside-test.herokuapp.com/]
+    URL: [http://thi-clientside-test.herokuapp.com/?search=beathes]
 
     Ejemplo:
 
