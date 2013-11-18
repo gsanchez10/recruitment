@@ -16,7 +16,7 @@ The test consists in building an application that searches for songs. You will b
 
     URL: [http://thi-clientside-test.herokuapp.com/?search=beathes]
 
-    example:
+    Example:
 
         [
           {
