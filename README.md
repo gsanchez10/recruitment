@@ -54,7 +54,7 @@ Use native Javascript or any other existing Javascript framework.
 There are no restrictions on the use of plugins or tools that you can use to develop the test.
 Adobe Photoshop is the only software you will need to have installed on your machine in order to complete the test.
 
-##### Once you are done, please let us know by sending an email to [hangarcareers@thehangar.cr], with the URL where we can review it or just add the attachment.
+##### Once you are done, please let us know by sending an email to [hangarcareers@thehangar.cr].
 
   [http://localhost:3000/songs?q=beatles]: http://localhost:3000/songs?q=beatles
   [assets]: https://github.com/thehangarcr/recruitment/tree/master/assets
