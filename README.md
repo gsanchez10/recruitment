@@ -1,7 +1,7 @@
 Recruitment Song App Tests
 ==================
 
-The test consists in building an application that searches for songs. You will be provided with the location of the service from which you will obtain the songs information as well as the creative file.
+The test consists in building an application that searches for songs. You will be provided with the json file from which you can obtain the songs information as well as the creative file.
 
 #### App. Requirements `(*)` `Optionals`
 1. Create a layout based on the PSD and the fonts found under the [assets] folder.
