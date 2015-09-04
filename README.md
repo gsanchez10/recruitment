@@ -10,11 +10,8 @@ The test consists in building an application that searches for songs. You will b
 4. Internationalization. `(*)`  ej: buton and labels responsive 
 5. Clouds animation. `(*)` 
 
-#### App. Funtionality `(*)` `Optionals`
-You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. Use native Javascript or any other existing Javascript framework.
-
 ### How to start json-server
-Follow the instructions from the module page to how isntall it. Then grap the [db/song.json] file and put it some where to start the server as follow:
+You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. Then grap the [db/song.json] file and put it some where to start the server as follow:
 
 `json-server --watch db/songs.json`
 
@@ -43,6 +40,8 @@ Follow the instructions from the module page to how isntall it. Then grap the [d
           },
           ...
         ]    
+#### App. Funtionality `(*)` `Optionals`
+Use native Javascript or any other existing Javascript framework.
 
 * When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data. `(*)` 
 
@@ -65,7 +64,7 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 4. Internationalization. `(*)` 
 
 ### How to start json-server
-Follow the instructions from the module page to how isntall it. Then grap the [db/song.json] file and put it some where to start the server as follow:
+You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. Then grap the [db/song.json] 
 
 `json-server --watch db/songs.json`
 
@@ -94,6 +93,8 @@ Follow the instructions from the module page to how isntall it. Then grap the [d
           },
           ...
         ]    
+
+#### App. Funtionality `(*)` `Optionals`
 
 * When the user clicks on the magnifying glass icon, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
 
