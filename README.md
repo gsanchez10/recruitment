@@ -5,38 +5,43 @@ The test consists in building an application that searches for songs. You will b
 
 #### App. Requirements `(*)` `Optionals`
 1. Create a layout based on the PSD and the fonts found under the [assets] folder.
-2. It must be Responsive ( desktop, table, mobile 480). `(*)` 
+2. It must be Responsive ( desktop, table, mobile 480). 
 3. Use the least amount of images possible. `(*)` 
 4. Internationalization. `(*)`  ej: buton and labels responsive 
 5. Clouds animation. `(*)` 
 
 #### App. Funtionality `(*)` `Optionals`
+You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. Use native Javascript or any other existing Javascript framework.
 
-* You will be provided with a URL from which you can obtain the songs information. You will have to use native Javascript or any other existing Javascript framework. `(*)` 
+### How to start json-server
+Follow the instructions from the module page to how isntall it. Then grap the [db/song.json] file and put it some to start the server as follow:
 
-    URL: [http://thi-clientside-test.herokuapp.com/?search=beathes]
+`json-server --watch db/songs.json`
+
+    URL: [http://localhost:3000/songs?q=beatles]
 
     Example:
 
         [
           {
-              "Url": "http://tinysong.com/vb2H",
-              "SongID": 25479197,
-              "SongName": "Johnny B. Goode",
-              "ArtistID": 45,
-              "ArtistName": "Chuck Berry",
-              "AlbumID": 235469,
-              "AlbumName": "Roll Over Beethoven"
+            "url": "spotify:track:7linrtr5px7i3r96mducjw",
+            "id": 8815585,
+            "songname": "twist and shout",
+            "artistid": 1833,
+            "artistname": "beatles",
+            "albumid": 5619520,
+            "albumname": "beatles"
           },
           {
-              "Url": "http://tinysong.com/7Wm7",
-              "SongID": 8815585,
-              "SongName": "Moonlight Sonata",
-              "ArtistID": 1833,
-              "ArtistName": "Beethoven",
-              "AlbumID": 5619520,
-              "AlbumName": "Beethoven Piano Sonatas"
-          }
+            "url": "spotify:track:7linrtr5px7i3r96mducjw",
+            "id": 8815585,
+            "songname": "i saw her standing there",
+            "artistid": 1833,
+            "artistname": "beatles",
+            "albumid": 5619520,
+            "albumname": "beatles"
+          },
+          ...
         ]    
 
 * When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data. `(*)` 
@@ -60,33 +65,34 @@ There are no restrictions on the use of platforms (iOS, Android, BlackBerry, Win
 4. Internationalization. `(*)` 
 
 #### App. Funtionality
+You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. 
 
-* The URL from which you can obtain the songs information is: 
-
-    URL: [http://thi-clientside-test.herokuapp.com/?search=beathes]
+    URL: [http://localhost:3000/songs?q=beatles]
 
     Example:
 
         [
           {
-              "Url": "http://tinysong.com/vb2H",
-              "SongID": 25479197,
-              "SongName": "Johnny B. Goode",
-              "ArtistID": 45,
-              "ArtistName": "Chuck Berry",
-              "AlbumID": 235469,
-              "AlbumName": "Roll Over Beethoven"
+            "url": "spotify:track:7linrtr5px7i3r96mducjw",
+            "id": 8815585,
+            "songname": "twist and shout",
+            "artistid": 1833,
+            "artistname": "beatles",
+            "albumid": 5619520,
+            "albumname": "beatles"
           },
           {
-              "Url": "http://tinysong.com/7Wm7",
-              "SongID": 8815585,
-              "SongName": "Moonlight Sonata",
-              "ArtistID": 1833,
-              "ArtistName": "Beethoven",
-              "AlbumID": 5619520,
-              "AlbumName": "Beethoven Piano Sonatas"
-          }
+            "url": "spotify:track:7linrtr5px7i3r96mducjw",
+            "id": 8815585,
+            "songname": "i saw her standing there",
+            "artistid": 1833,
+            "artistname": "beatles",
+            "albumid": 5619520,
+            "albumname": "beatles"
+          },
+          ...
         ]    
+ 
 
 * When the user clicks on the magnifying glass icon, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data.
 
@@ -102,9 +108,10 @@ Adobe Photoshop is the only software you will need to have installed on your mac
 
 ##### Once you are done, please let us know by sending an email to [thi-tech-test@thehangar.cr], with the URL where we can review it or just add the attachment.
 
-  [http://thi-clientside-test.herokuapp.com/?search=beathes]: http://thi-clientside-test.herokuapp.com/?search=beathes
-  
+  [http://localhost:3000/songs?q=beatles]: http://localhost:3000/songs?q=beatles
   [assets]: https://github.com/thehangarcr/recruitment/tree/master/assets
-  
-  [thi-tech-test@thehangar.cr]: mailto:thi-tech-test@thehangar.cr
+  [db/song.json]: https://github.com/thehangarcr/recruitment/tree/master/db/song.json
+  [json-server]: https://www.npmjs.com/package/json-server
+  [hangarcareers@thehangar.cr]: mailto:hangarcareers@thehangar.cr
+
 
