@@ -7,7 +7,7 @@ The test consists in building an application that searches for songs. You will b
 1. Create a layout based on the PSD and the fonts found under the [assets] folder.
 2. It must be Responsive ( desktop, table, mobile 480). 
 3. Use the least amount of images possible. `(*)` 
-4. Internationalization. `(*)`  ej: buton and labels responsive 
+4. Buttons and labels adapt to its content (*)
 5. Clouds animation. `(*)` 
 
 ### How to start json-server
