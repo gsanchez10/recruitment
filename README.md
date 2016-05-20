@@ -1,14 +1,14 @@
 Recruitment Song App Tests
 ==================
 
-The test consists in building an application that searches for songs. You will be provided with the json file from which you can obtain the songs information as well as the creative file.
+The test consists in building an application that searches for songs. You will be provided with the json file from which you can obtain the songs information as well as the creative file. **IMPORTANT**: Complete the modules specified in a previous sent email. You can complete all modules and it will be a great plus.
 
 #### App. Requirements `(*)` `Optionals`
 1. Create a layout based on the PSD and the fonts found under the [assets] folder.
-2. It must be Responsive ( desktop, table, mobile 480). 
+2. It must be Responsive
 3. Use the least amount of images possible. `(*)` 
-4. Buttons and labels adapt to its content (*)
-5. Clouds animation. `(*)` 
+4. Buttons and labels adapt to its content `(*)`
+5. Use a real service for the songs `(*)`
 
 ### How to start json-server
 You will need to start a fake [json-server]. Find all the info of how to use this module in the npm or github page. Then grap the [db/song.json] file and put it some where to start the server as follow:
@@ -40,14 +40,35 @@ You will need to start a fake [json-server]. Find all the info of how to use thi
           },
           ...
         ]    
-#### App. Funtionality `(*)` `Optionals`
+#### Module Login Functionality `(*)` `Optionals`
 Use native Javascript or any other existing Javascript framework.
 
-* When the user clicks on the magnifying glass icon or presses Enter while on the textbox, the app will make a request to the URL provided which will return a JSON and then you will dynamically load the grid with that data. `(*)` 
+* Validate inputs, all required (password - alphanumeric, min: 8 char, max: 24 char, at least on number, special characters allowed: !-_#.+=*%$@)
 
-* The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not). `(*)` 
+* Login with social networks `(*)` 
 
-* The purple button will open a new tab from which the song will play. `(*)` 
+* Remember email next time user enter this page if checkbox was checked `(*)`
+ 
+#### Main Page Funtionality `(*)` `Optionals`
+Use native Javascript or any other existing Javascript framework.
+
+* Fill page with songs from service
+
+* Search on submit
+
+* Search on input change `(*)` 
+
+* The [Today] and [Friday] buttons inside of each grid element must work as radiobuttons (meaning, when one is active the other is not).
+
+* The play button will go to a page from which the user can see son details. `(*)` 
+
+ 
+#### Song Detail Page Funtionality `(*)` `Optionals`
+Use native Javascript or any other existing Javascript framework.
+
+* Fill page with song from service
+
+* Manipulate song pause, play and progress `(*)`
 
 -----
 #### Notes:
