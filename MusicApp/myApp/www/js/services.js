@@ -23,7 +23,6 @@ angular.module('starter.services', [])
           callback(response);
       }, function errorCallback(response) {
           // server returns response with an error status.
-          console.log("Error cargando esquema de seguridad.");
           console.log(response.data);
           callback(response);
       });
@@ -37,7 +36,6 @@ angular.module('starter.services', [])
             callback(response);
         }, function errorCallback(response) {
             // server returns response with an error status.
-            console.log("Error cargando esquema de seguridad.");
             console.log(response.data);
             callback(response);
         });
@@ -52,7 +50,6 @@ angular.module('starter.services', [])
             callback(response);
         }, function errorCallback(response) {
             // server returns response with an error status.
-            console.log("Error cargando esquema de seguridad.");
             console.log(response.data);
             callback(response);
         });*/
