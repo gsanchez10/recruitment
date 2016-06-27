@@ -11,7 +11,7 @@ angular.module('starter.controllers', [])
     if (response.status === 'connected') {
       $rootScope.globals = {
           currentUser: {
-              username: response.data
+              username: "logged"
           }
       };
 
@@ -109,6 +109,15 @@ angular.module('starter.controllers', [])
       $location.path('/tab/songs');
       if($scope.user.remember == true) {
         $cookies.put('songUser', JSON.stringify($scope.user));
+        $rootScope.globals = {
+            currentUser: {
+                username: "logged"
+            }
+        };
+
+        //$http.defaults.headers.common['Authorization'] = 'Basic ' + authdata; // jshint ignore:line
+        $cookieStore.put('globals', $rootScope.globals);
+
       }
     });
   };

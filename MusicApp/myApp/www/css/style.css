@@ -250,7 +250,6 @@ header h1 {
 
 .songs-info {
 	float: left;
-    max-width: 121px;
 }
 
 .song-options {
@@ -469,4 +468,11 @@ header h1 {
 
 .song-detail .prev, .song-detail .next {
 	padding-top: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .songs-info {
+        max-width: 121px;
+    }
 }
