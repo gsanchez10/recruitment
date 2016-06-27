@@ -1,0 +1,46 @@
+<ion-view view-title="Login">
+  <ion-content class="padding login">
+    <div class="text-center">
+      <h2>LOGIN</h2>
+    </div>
+    <div class="col-60 login-box">
+      <form name="myForm" ng-submit="entrar()">
+        <input type="text" name="email" ng-model="user.email" placeholder="Email" ng-required="true"/>
+        <div class="errors">
+          <p ng-show="myForm.email.$error.required">Email is required</p>
+        </div>
+        <input type="password" name="password" ng-model="user.password" placeholder="Password" ng-required="true" ng-minlength="8" ng-maxlength="24"/>
+        <div class="errors">
+          <p ng-show="myForm.password.$error.required">Password is required</p>
+          <p ng-show="myForm.password.$error.minlength">Password is too short</p>
+          <p ng-show="myForm.password.$error.maxlength">Password is too long</p>
+        </div>
+        <div class="row login-extra">
+          <div class="col-50">
+            <input type="checkbox" ng-model="user.remember" /> Remember Me
+          </div>
+          <div class="col-50">
+            <a href="javascript:void(0);" class="forgot">Forgot Password?</a>
+          </div>
+        </div>
+        <input type="submit" value="LOGIN"/>
+      </form>
+      <div class="social-login">
+        <h3>Or sign in with a social account</h3>
+        <div class="row social-buttons">
+          <div class="col-50">
+            <a href="javascript:void(0);" class="ion-social-twitter"></a>
+          </div>
+          <div class="col-50">
+            <a href="javascript:void(0);" class="ion-social-facebook"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  
+  </ion-content>
+</ion-view>

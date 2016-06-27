@@ -1,0 +1,35 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+
+<ion-view view-title="{{song.songname}}">
+  <ion-content class="padding song-detail">
+    <img ng-src="{{song.image}}"/>
+    <!--PROGRESS BAR-->
+    <div id="demo_contained">
+      <div id="ngProgress-container" class="ng-scope" style="position: absolute;">
+        <div id="ngProgress" style="height: 2px; color: #4dc4d3; width: 0%; background-color: #4dc4d3;"></div>
+      </div>
+      <div class="times clearfix">
+        <span class="timeSpent">{{((timeSpent.getMinutes() < 10)? "0"+timeSpent.getMinutes():timeSpent.getMinutes())}}:{{((timeSpent.getSeconds() < 10)? "0"+timeSpent.getSeconds():timeSpent.getSeconds())}}</span>
+        <span class="timeLeft">-{{((timeLeft.getMinutes() < 10)? "0"+timeLeft.getMinutes():timeLeft.getMinutes())}}:{{((timeLeft.getSeconds() < 10)? "0"+timeLeft.getSeconds():timeLeft.getSeconds())}}</span>
+      </div>
+    </div>
+    <h2>
+      {{song.songname}}
+    </h2>
+    <h3>
+      {{song.artistname}}
+    </h3>
+    <div class="song-controls">
+    <ul>
+      <li class="prev"><a href="javascript:void(0);"></a></li>
+      <li class="togglePlay"><a href="javascript:void(0);" ng-class="{playing:playing == true}" ng-click="play($event)"></a></li>
+      <li class="next"><a href="javascript:void(0);"></a></li>
+    </ul>
+    </div>
+  </ion-content>
+</ion-view>

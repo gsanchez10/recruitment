@@ -1,0 +1,472 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+  font-family: 'din_blackregular';
+  src: url('fonts/DINMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sameButDifferent';
+  src: url('fonts/SameSameButDifferent.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'titillium';
+  src: url('fonts/TitilliumText22L001.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #fff;
+}
+body, .pane, .view, .view-container {
+	background: #1f2225;
+	font-family: din_blackregular;
+}
+.has-footer {
+    bottom: 270px!important;
+}
+.has-header {
+    top: 160px;
+}
+.logo {
+	width: 46px;
+    height: 46px;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px
+}
+.logo .h {
+	background: #231f20;
+    height: 15px;
+    position: relative
+}
+.h:before {
+    content: "";
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -4px;
+    height: 10px;
+    left: 3px
+}
+.h:after {
+    content: "";
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    bottom: -4px;
+    height: 10px;
+    left: 3px
+}
+header {
+	text-align: center
+}
+.top-tabs {
+    border-top: #4dc4d3 2px solid;
+    margin-bottom: 26px
+}
+.top-tabs a {
+    background: #4dc4d3;
+    color: #333333;
+    text-decoration: none;
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    padding: 0 19px 5px 19px;
+    display: inline-block;
+    margin: 0 10px;
+
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+header h1 {
+	font-family: din_blackregular;
+	font-weight: bold;
+	font-size: 48px
+}
+.login .view-container h2 {
+	font-family: din_blackregular;
+	font-size: 23.54px;
+	margin: 70px 0
+}
+.errors {
+	color: red;
+}
+.login-box {
+	margin: 0 auto;
+}
+.login-box input {
+}
+.login-box input[type=text], .login-box input[type=password] {
+	background: #636567;
+	color: #fff;
+	margin-top: 20px;
+	padding: 25px;
+	width: 100%
+}
+.login-extra {
+	font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+	margin: 20px 0;
+}
+.forgot {
+	color: #fff;
+	text-decoration: none;
+	float: right;
+}
+.login-box input[type=submit] {
+	background: #4dc4d3;
+	border: 0;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 13px 0;
+	text-align: center;
+	width: 100%
+}
+
+.social-login {
+	text-align: center
+}
+.social-login h3 {
+	margin: 40px 0;
+}
+.social-login a {
+	width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50px;
+    position: relative
+}
+.social-login .ion-social-facebook {
+    background: #3b5a99;
+    float: left;
+    margin-left: 17px;
+}
+.social-login .ion-social-twitter {
+    background: #1ebdef;
+    float: right;
+    margin-right: 17px;
+}
+.ion-social-facebook:before {
+    color: #fff;
+    font-size: 37px;
+    position: absolute;
+    top: 50%;
+    margin-top: -18.5px;
+    left: 50%;
+    margin-left: -6.94px;
+}
+.ion-social-twitter:before {
+    color: #fff;
+    font-size: 37px;
+    position: absolute;
+    top: 50%;
+    margin-top: -18.5px;
+    left: 50%;
+    margin-left: -17.055px;
+}
+.bar-footer {
+	background: repeating-linear-gradient(
+	  135deg,
+	  #0b0c0d,
+	  #0b0c0d 5px,
+	  #1b1c1e 5px,
+	  #1b1c1e 10px
+	);
+	background-size: 6px 6px !important;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgi…pZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+    background-image: -moz-linear-gradient(135deg, #1b1c1e 46%, #0b0c0d 49%, #0b0c0d 51%, #1b1c1e 55%);
+    background-image: -webkit-linear-gradient(135deg, #1b1c1e 46%, #0b0c0d 49%, #0b0c0d 51%, #1b1c1e 55%);
+    background-image: linear-gradient(-45deg, #1b1c1e 46%, #0b0c0d 49%, #0b0c0d 51%, #1b1c1e 55%);
+
+	border-top: #0e1011 2px solid;
+	font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+	text-align: center;
+	padding: 33px 0;
+	display: block;
+	height: auto
+}
+.footer-links {
+	width: 100%;
+}
+.bar-footer a {
+	color: #fff;
+	text-decoration: none;
+}
+.search-library .searchBox {
+	border-radius: 20px;
+	background: #35383c;
+	color: #fff;
+	float: left;
+	padding: 0 20px;
+	width: 89%
+}
+.searchBox+i {
+	margin-left: -28px;
+    margin-top: 7px;
+    display: inline-block;
+}
+
+.songs-list {
+	margin-top: 20px;
+}
+
+.songs-list .item-complex .item-content {
+	padding: 0 10px 0 57px;
+	background: none;
+}
+
+.songs-list .item {
+	background: #636567;
+	border: 0;
+	margin: 2px 0;
+	padding: 9px 0;
+}
+
+.songs-list .item .ion-play {
+	border: 1px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	left: 9px;
+	max-height: 41px;
+}
+
+.songs-list .item .ion-play:before {
+	width: 37px;
+}
+
+.songs-list .item:nth-child(odd) {
+	background: #8f9192;
+}
+
+.songs-info {
+	float: left;
+    max-width: 121px;
+}
+
+.song-options {
+	float: right;
+}
+
+.song-when {
+	background: #4fc9d8;
+	border: 0;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.song-when+.song-when {
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-topleft: ;
+	-moz-border-radius-bottomleft: 0;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+	border-left: #47b0bd solid 1px;
+}
+
+.song-when.active {
+	opacity: 0.8;
+}
+
+.songs-info p {
+	color: #fff;
+	font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+
+.song-detail h2, .song-detail h3 {
+	text-transform: capitalize;
+}
+
+.song-detail h3 {
+	font-weight: normal
+}
+
+.song-detail img {
+	max-width: 327px;
+	width: 80%;
+}
+
+/**PROGRESS BAR**/
+#demo_contained {
+	position: relative;
+	max-width: 327px;
+    width: 80%;
+    margin: 20px auto;
+}
+#demo_contained .timeSpent, #demo_contained .timeLeft {
+	margin-top: 10px;
+}
+#demo_contained .timeSpent {
+	float: left;
+}
+#demo_contained .timeLeft {
+	float: right;
+}
+.times {
+	font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+#ngProgress {
+	position: relative;
+}
+#ngProgress:after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	background: #4dc4d3;
+	top: -4px;
+	right: -10px;
+}
+/****************/
+
+.song-controls {
+	margin-top: 38px;
+}
+
+.song-detail {
+	text-align: center;
+}
+
+.song-detail li {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.song-detail li a:link, .song-detail li a:visited {
+    display: block;
+    border: 0;
+    padding-left: 37px;
+    color: #fff;
+    position: relative;
+}
+
+.song-detail li:before, .song-detail li:after, .song-detail li a:before, .song-detail li a:after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+
+.song-detail li a {
+	height: 39px;
+}
+
+.song-detail .next a:after {
+	content: "";
+    left: 2px;
+    border: 19px solid transparent;
+    border-width: 19px 30px;
+    border-left-color: #fff;
+    margin-top: -4px;
+    background: transparent;
+}
+
+.song-detail .next a:before {
+    left: 32px;
+    width: 5px;
+    height: 39px;
+    margin-top: -4px;
+}
+
+.song-detail li a:before, .song-detail li a:after {
+    margin: -8px 0 0;
+    background: #fff;
+}
+
+.song-detail .prev a:before {
+    left: 0;
+    width: 5px;
+    height: 39px;
+    margin-top: -4px;
+}
+
+.song-detail .prev a:after {
+    left: -25px;
+    border: 19px solid transparent;
+    border-width: 19px 30px;
+    border-right-color: #fff;
+    margin-top: -4px;
+    background: transparent;
+}
+
+.song-detail .togglePlay a:after {
+    content: "";
+    left: 2px;
+    border: 19px solid transparent;
+    border-width: 19px 30px;
+    border-left-color: #fff;
+    margin-top: -4px;
+    background: transparent;
+}
+
+.tab-nav {
+    display: none
+}
+
+.song-detail .togglePlay .playing:after {
+    content: "";
+    right: 6px;
+    border: 19px solid transparent;
+    border-width: 0;
+    border-left-color: #fff;
+    margin-top: -4px;
+    background: #fff;
+    height: 100%;
+    width: 6px;
+    left: auto;
+}
+
+.song-detail .togglePlay .playing:before {
+    content: "";
+    left: 6px;
+    border: 19px solid transparent;
+    border-width: 0;
+    border-left-color: #fff;
+    margin-top: -4px;
+    background: #fff;
+    height: 100%;
+    width: 6px;
+}
+
+.song-detail .togglePlay {
+	padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin: 0 54px;
+}
+
+.song-detail .prev, .song-detail .next {
+	padding-top: 10px;
+}
